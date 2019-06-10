@@ -95,7 +95,7 @@ public class Main extends Application {
 			snake.add(new Corner(width / 2, height / 2));
 			snake.add(new Corner(width / 2, height / 2));
 			snake.add(new Corner(width / 2, height / 2));
-
+			//If you do not want to use css style, you can just delete the next line.
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("SNAKE GAME");
